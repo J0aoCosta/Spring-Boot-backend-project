@@ -1,4 +1,4 @@
-package com.training.springbootbuyitem.entity.request;
+package com.training.springbootbuyitem.entity.request.item;
 
 import javax.validation.constraints.PositiveOrZero;
 

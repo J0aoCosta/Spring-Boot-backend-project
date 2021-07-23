@@ -1,15 +1,16 @@
 package com.training.springbootbuyitem.controller;
 
+import com.training.springbootbuyitem.constant.ItemStorageConstant;
 import com.training.springbootbuyitem.entity.response.ErrorMessage;
 import com.training.springbootbuyitem.error.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.MDC;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 @Slf4j
 @ControllerAdvice
@@ -40,7 +41,7 @@ public class RestControllerAdvice {
 	}
 
 	private ResponseEntity<ErrorMessage> buildErrorMessageResponseEntity(String msg, HttpStatus httpStatus) {
-		/*
+
 		log.error(msg);
 		return new ResponseEntity<>(
 				ErrorMessage.builder()
@@ -51,8 +52,6 @@ public class RestControllerAdvice {
 						.build(),
 				httpStatus);
 
-		 */
-		throw new NotImplementedException();
 	}
 
 }

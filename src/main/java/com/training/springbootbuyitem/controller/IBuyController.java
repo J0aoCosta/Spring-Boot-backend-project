@@ -1,12 +1,12 @@
 package com.training.springbootbuyitem.controller;
 
 import com.training.springbootbuyitem.entity.model.Item;
-import com.training.springbootbuyitem.entity.request.CreateItemRequestDto;
-import com.training.springbootbuyitem.entity.request.DispatchItemRequestDto;
-import com.training.springbootbuyitem.entity.request.RestockItemRequestDto;
-import com.training.springbootbuyitem.entity.response.CreateItemResponseDto;
-import com.training.springbootbuyitem.entity.response.GetItemResponseDto;
-import com.training.springbootbuyitem.entity.response.UpdateItemResponseDto;
+import com.training.springbootbuyitem.entity.request.item.CreateItemRequestDto;
+import com.training.springbootbuyitem.entity.request.item.DispatchItemRequestDto;
+import com.training.springbootbuyitem.entity.request.item.RestockItemRequestDto;
+import com.training.springbootbuyitem.entity.response.item.CreateItemResponseDto;
+import com.training.springbootbuyitem.entity.response.item.GetItemResponseDto;
+import com.training.springbootbuyitem.entity.response.item.UpdateItemResponseDto;
 import com.training.springbootbuyitem.utils.annotation.ServiceOperation;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

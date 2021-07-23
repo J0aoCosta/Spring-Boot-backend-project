@@ -1,4 +1,4 @@
-package com.training.springbootbuyitem.entity.response;
+package com.training.springbootbuyitem.entity.response.item;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,5 +1,6 @@
-package com.training.springbootbuyitem.entity.response;
+package com.training.springbootbuyitem.entity.response.item;
 
+import com.training.springbootbuyitem.entity.response.item.CreateItemResponseDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
